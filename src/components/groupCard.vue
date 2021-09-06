@@ -7,7 +7,7 @@
     <Col v-for="(item) in groupStu" :key="item" span="2" >
       <Avatar icon="ios-person" size="large" />
       <br>
-      <label>{{item}}</label>
+      <label style="text-align: center;margin-left: 5px">{{item}}</label>
     </Col>
   </Row>
 </template>

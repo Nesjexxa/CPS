@@ -24,9 +24,9 @@
     <Col span="1"></Col>
     <br>
     <br>
-    <Col span="20" style="border-bottom: solid #EBEBEB;">
+    <Col span="22" style="border-bottom: solid #EBEBEB;height: 48px">
     </Col>
-    <Col span="3"></Col>
+    <Col span="1"></Col>
   </Row>
 <!--  排队界面-->
   <Row align="bottom">
@@ -89,10 +89,10 @@ export default {
     // 以矩阵的方式获得所有进入课堂学生的名字集
     getMemberNameByGroup (groupmembernum) {
       return [
-        ['张三', '李四', '王二', '麻子'],
-        ['张三', '李四', '王二', '麻子'],
-        ['张三', '李四', '王二', '麻子'],
-        ['张三', '李四', '王二', '麻子']
+        ['王五', '张三', '张三', '张三'],
+        ['张三', '王五', '张三', '张三'],
+        ['张三', '张三', '王五', '张三'],
+        ['张三', '张三', '张三', '王五']
       ]
     }
   },
